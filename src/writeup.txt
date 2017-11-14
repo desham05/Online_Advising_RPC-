@@ -1,0 +1,33 @@
+Lab 2 - Online Advising Simulation using RPC & Message Queuing(Stuent name - sham & student Id - 1001574763 & login id - sdd4763)
+
+Instructions to compile and execute the project:
+
+1) Project folder is included in the zip file, need to be imported in eclipse using add existing project into workspace
+2) Go to the file-->import
+3) search for the "existing project into workspace"
+4) under select root directrory click on the browse option and select the project folder.Project will be imported in the eclipse workspace
+5) Need to add apache server to run the project as follows
+6) Go to Window-->show view-->servers
+7) Right click on the servers view to add the server 
+8) Right click--> New--> server
+9) Select apache server present in the system
+10) Open the MQServer.java file and run it using apache tomcat server. Server GUI will be opened.
+11) Open Student.java file and run the file using apache tomcat server. Client GUI will be opened.
+12) Enter Student Name, Course Name
+13) click on button "send for clearance"
+14) Open Advisor.java file and run it using apache tomcat server.
+15) Check the output on the eclipse console.
+16) Open Notification.java file and run it using apache tomcat server.
+17) Check the output on the eclipse console.
+
+
+
+Assumptions:
+
+1) Port number chosen is random as it will not have impact on the execution
+2) GUI done in java itself as all the other code was in java
+
+
+reference taken for GUI: 
+
+https://www.mkyong.com/java/java-rmi-hello-world-example/
